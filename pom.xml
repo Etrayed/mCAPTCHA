@@ -9,10 +9,13 @@
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
 
-    <modules>
-        <module>mcaptcha-api</module>
-        <module>mcaptcha-plugin</module>
-    </modules>
+    <developers>
+        <developer>
+            <name>Miklas</name>
+            <id>etrayed</id>
+            <url>https://etrayed.github.io</url>
+        </developer>
+    </developers>
 
     <licenses>
         <license>
@@ -20,6 +23,11 @@
             <url>https://opensource.org/licenses/MIT</url>
         </license>
     </licenses>
+
+    <modules>
+        <module>mcaptcha-api</module>
+        <module>mcaptcha-plugin</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
