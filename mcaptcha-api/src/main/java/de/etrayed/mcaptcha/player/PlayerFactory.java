@@ -11,5 +11,5 @@ public interface PlayerFactory {
 
     CaptchaPlayer forUsername(String username);
 
-    CaptchaPlayer forPlayerObject(Class<?> playerClass);
+    CaptchaPlayer forPlayerObject(Object player);
 }
