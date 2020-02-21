@@ -11,6 +11,13 @@
 
     <artifactId>mcaptcha-plugin</artifactId>
 
+    <repositories>
+        <repository>
+            <id>spigotmc-public</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
