@@ -9,7 +9,5 @@ public interface MCaptcha {
 
     PlayerFactory playerFactory();
 
-    int version();
-
     <P> P plugin(Class<P> pluginClass);
 }

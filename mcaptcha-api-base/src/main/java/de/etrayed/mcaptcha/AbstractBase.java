@@ -33,11 +33,6 @@ public abstract class AbstractBase implements MCaptcha {
     }
 
     @Override
-    public final int version() {
-        return 1;
-    }
-
-    @Override
     public final <P> P plugin(Class<P> pluginClass) {
         return pluginClass.cast(plugin);
     }

@@ -5,7 +5,7 @@ import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 
-public class DelegatePlayerFactory implements PlayerFactory {
+public final class DelegatePlayerFactory implements PlayerFactory {
 
     private final Map<UUID, CaptchaPlayer> playerCache = new ConcurrentHashMap<>();
 
