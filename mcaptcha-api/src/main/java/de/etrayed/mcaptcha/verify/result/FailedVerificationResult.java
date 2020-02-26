@@ -1,6 +1,8 @@
-package de.etrayed.mcaptcha.verify;
+package de.etrayed.mcaptcha.verify.result;
 
 import de.etrayed.mcaptcha.player.CaptchaPlayer;
+import de.etrayed.mcaptcha.verify.VerificationMethod;
+import de.etrayed.mcaptcha.verify.VerificationResult;
 
 abstract class FailedVerificationResult implements VerificationResult {
 

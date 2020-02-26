@@ -1,8 +1,5 @@
 package de.etrayed.mcaptcha.player;
 
-import de.etrayed.mcaptcha.player.CaptchaPlayer;
-import de.etrayed.mcaptcha.player.PlayerFactory;
-
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;

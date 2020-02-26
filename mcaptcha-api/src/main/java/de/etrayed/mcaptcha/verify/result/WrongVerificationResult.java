@@ -1,6 +1,7 @@
-package de.etrayed.mcaptcha.verify;
+package de.etrayed.mcaptcha.verify.result;
 
 import de.etrayed.mcaptcha.player.CaptchaPlayer;
+import de.etrayed.mcaptcha.verify.VerificationMethod;
 
 public final class WrongVerificationResult extends FailedVerificationResult {
 
