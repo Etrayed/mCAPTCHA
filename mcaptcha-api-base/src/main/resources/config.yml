@@ -1,0 +1,4 @@
+joinCheckEnabled: true
+commandEnabled: true
+enabledMethods:
+  - '~MapToText'
